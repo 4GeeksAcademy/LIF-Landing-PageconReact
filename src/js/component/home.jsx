@@ -10,30 +10,14 @@ import Footer from "./Footer";
 const Home = () => {
 	return (
 		<>
-		<Navbar/>
-		<div className="container">
-			<Hero/>
-			<div className="row">
-				<div className="col">
+			<Navbar />
+			<div className="container">
+				<Hero />
 
-		<Cards />
-		</div>
-				<div className="col">
+				<Cards />
 
-		<Cards/>
-		</div>
-				<div className="col">
-
-		<Cards/>
-		</div>
-				<div className="col">
-
-		<Cards/>
-		</div>
-		</div>
-		
-		</div>
-		<Footer/>
+			</div>
+			<Footer />
 		</>
 	);
 };
